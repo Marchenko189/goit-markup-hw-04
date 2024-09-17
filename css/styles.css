@@ -346,3 +346,6 @@ align-items: center;
 main {
     flex-grow: 1;
 }
+.social-links-footer-container {
+    display: flex;
+}
