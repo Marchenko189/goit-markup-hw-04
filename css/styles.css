@@ -249,10 +249,10 @@ align-items: center;
     justify-content: center;
     margin-top: 8px;
 }
-.link-icon:hover  {
-    background-color: #31D0AA;
+.link-icon:hover, .link-icon:focus {
+    background-color: #404BBF;
 }
-.link-icon {
+.link-icon, .link-icon-ftr {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -346,6 +346,20 @@ align-items: center;
 main {
     flex-grow: 1;
 }
-.social-links-footer-container {
+.ftr-txt-social {
+    margin-bottom: 16px;
+    color: #ffffff;
+}
+.footer-container {
     display: flex;
+    gap: 120px;
+}
+.social-links-ftr {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+.link-icon-ftr:hover,
+.link-icon-ftr:focus {
+    background-color: #31D0AA;
 }
